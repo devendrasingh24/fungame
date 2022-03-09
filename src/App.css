@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  /* height:100%; */
+  background-color: rgb(139, 146, 241);
+  font-family: sans-serif;
+  width: 100vw;
+  /* width: 100%; */
+  margin-top: 85px;
+}
+
+
+
+.score {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choice {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.computer-hand {
+  width: 250px;
+}
+
+.player-hand {
+  width: 250px;
+  transform: rotateY(180deg);
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(212, 26, 42);
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.result {
+  padding: 50px;
+}
